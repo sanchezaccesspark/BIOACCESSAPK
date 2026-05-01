@@ -15,27 +15,22 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100vh;
+    min-height:100vh;
     padding:20px;
 }
 
 .card {
     background:#1e293b;
-    padding:30px;
+    padding:25px;
     border-radius:20px;
-    text-align:center;
+    text-align:left;
     box-shadow:0 0 40px rgba(0,0,0,0.6);
     width:100%;
-    max-width:350px;
+    max-width:400px;
 }
 
 h1 {
-    font-size:24px;
-}
-
-p {
-    color:#94a3b8;
-    font-size:14px;
+    text-align:center;
 }
 
 .btn {
@@ -47,7 +42,17 @@ p {
     text-decoration:none;
     color:white;
     font-size:18px;
-    width:100%;
+    text-align:center;
+}
+
+.steps {
+    margin-top:20px;
+    font-size:14px;
+    color:#cbd5f5;
+}
+
+.steps li {
+    margin-bottom:8px;
 }
 </style>
 </head>
@@ -56,14 +61,20 @@ p {
 
 <div class="card">
     <h1>🔐 BioAccess</h1>
-    <p>Sistema de control de acceso</p>
 
-    <a class="btn" href="https://drive.google.com/file/d/1XM3UqGgdsvzXokEri2VqizNV9nWWDaWY/view?usp=drive_link">
+    <a class="btn" href="AQUI_TU_LINK_APK">
         Descargar APK
     </a>
 
-    <p style="margin-top:15px;font-size:12px;">
-        Activa "instalar apps desconocidas"
+    <ul class="steps">
+        <li>1. Descarga el archivo APK</li>
+        <li>2. Ábrelo desde la notificación o descargas</li>
+        <li>3. Si aparece bloqueo, toca "Permitir desde esta fuente"</li>
+        <li>4. Regresa y presiona "Instalar"</li>
+    </ul>
+
+    <p style="font-size:12px;color:#94a3b8;">
+        ⚠️ Android puede mostrar advertencias porque no viene de Play Store.
     </p>
 </div>
 
